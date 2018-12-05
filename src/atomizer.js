@@ -238,6 +238,12 @@ Atomizer.prototype.parseConfig = function (config/*:AtomizerConfig*/, options/*:
             values = values.split(',').map(function (value, index) {
                 var matchVal = Grammar.matchValue(value);
                 var propAndValue;
+                
+                // SAKET
+                if (!matchVal) {
+                     console.log("invalid matchVal: ", matchVal, values);
+                     return value;
+                }
 
                 if (matchVal.number) {
                     if (rule.allowParamToValue || rule.type === 'helper') {
