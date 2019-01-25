@@ -148,7 +148,7 @@ module.exports = [
         "styles": {
             "display": "table-cell",
             "width": "1600px", /* 1 */
-            "*width": "auto",
+            // "*width": "auto",
             "zoom": 1
         }
     },
@@ -223,13 +223,13 @@ module.exports = [
         "matcher": "Hidden",
         "noParams": true,
         "styles": {
-            "position": "absolute !important",
-            "*clip": "rect(1px 1px 1px 1px)",
+            // "position": "absolute !important",
+            // "*clip": "rect(1px 1px 1px 1px)",
             "clip": "rect(1px,1px,1px,1px)",
-            "padding": "0 !important",
-            "border": "0 !important",
-            "height": "1px !important",
-            "width": "1px !important",
+            // "padding": "0 !important",
+            // "border": "0 !important",
+            // "height": "1px !important",
+            // "width": "1px !important",
             "overflow": "hidden"
         }
     },
@@ -248,7 +248,7 @@ module.exports = [
         "noParams": true,
         "styles": {
             "display": "inline-block",
-            "*display": "inline",
+            // "*display": "inline",
             "zoom": 1,
             "vertical-align": "top"
         }
@@ -284,7 +284,7 @@ module.exports = [
             "a[class*=LineClamp]": {
                 "display": "inline-block",
                 "display ": "-webkit-box",
-                "*display": "inline",
+                // "*display": "inline",
                 "zoom": 1
             },
             /**
@@ -323,8 +323,8 @@ module.exports = [
             "vertical-align": "top",
             "width": "100%",
             "box-sizing": "border-box",
-            "*display": "block",
-            "*width": "auto",
+            // "*display": "block",
+            // "*width": "auto",
             "zoom": 1
         }
     },
